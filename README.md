@@ -1,12 +1,13 @@
-#Retail Sales Database Project
-Overview
+# Retail Sales Database Project
+
+**Overview**
 This project focuses on analyzing retail sales data by running a series of SQL queries to extract insights from the dataset stored in the retail_sales_db database. The project covers data exploration, cleaning, and analysis of various aspects of the sales data, including customer behavior, sales trends, and category-specific analysis.
 
-Database Details
+**Database Details**
 
 Database Name: retail_sales_db
 
-Table: sales
+**Table: sales**
 The sales table contains the following columns:
 
 transactions_id: Unique identifier for each transaction.
@@ -31,7 +32,7 @@ cogs: Cost of goods sold.
 
 total_sale: Total sale amount for the transaction.
 
-Objectives
+**Objectives**
 
 Import and clean the sales data by identifying and handling any missing values.
 
