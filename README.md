@@ -123,6 +123,8 @@ COUNT(*) AS total_orders
 FROM sales
 GROUP BY 1;
 ```
+![Q3 Output](https://github.com/user-attachments/assets/14c218a5-73d4-4c13-844b-d58f8090ef25)
+
 -- **Q.4 Write a SQL Query to find the Average age of customers who purchased items from the "Beauty" Category.**
 ```
 SELECT 
@@ -130,11 +132,15 @@ ROUND(AVG(age),2) as avg_age
 FROM sales
 WHERE category ='Beauty';
 ```
+![Q4 Output](https://github.com/user-attachments/assets/5f9aa008-166a-486b-a4f2-a7a2d73537a6)
+
 -- **Q.5 Write a SQL query to find all transections where the total_sale > 1000**
 ```
 SELECT * FROM sales
 WHERE total_sale > 1000;
 ```
+![Q5 Output](https://github.com/user-attachments/assets/58a9f893-e4f5-435f-be4f-663a13847915)
+
 -- **Q.6 Write a SQL Query to find the total number of transections (transection_ID) made by each gender in each category.**
 ```
 SELECT 
@@ -147,6 +153,8 @@ category,
 gender
 ORDER BY 1;
 ```
+![Q6 Output](https://github.com/user-attachments/assets/0d197e61-3853-4182-8dc0-efad6484b052)
+
 --**Q.7 Write a SQL query to calculate the average sale for each month . find out best selling month in each year.**
 ```
 SELECT 
@@ -167,6 +175,8 @@ FROM
 ) AS t1
 WHERE r=1;
 ```
+![Q7 Output](https://github.com/user-attachments/assets/19405b29-4215-484e-a2f6-4ecefe28216d)
+
 -- **Q.8 Write a SQL Query to find the top 5 customers based on the highest total sales**
 ```
  SELECT 
@@ -177,6 +187,8 @@ WHERE r=1;
  ORDER BY total_sales DESC
  LIMIT 5;
 ```
+![Q8 Output](https://github.com/user-attachments/assets/90a91476-67b5-439d-9835-0ef50867ce2d)
+
 -- **Q.9 Write a SQL Query to find the number of unique customers who purchased items from each category**
 ```
 SELECT 
@@ -185,6 +197,8 @@ SELECT
  FROM sales
  GROUP BY category;
 ```
+![Q9 Output](https://github.com/user-attachments/assets/3174d29b-9ad5-4368-936d-648b5f580ed5)
+
 -- **Q.10 Write a SQL query to create each shift and number of orders (Example Morning <=12 & 17, Evening>17**
 ```
 WITH Hourly_Sale
@@ -203,7 +217,7 @@ COUNT(*) As total_orders
 FROM Hourly_Sale
 GROUP BY shift;
 ```
-
+![Q10 Output](https://github.com/user-attachments/assets/4aad3299-777c-4373-bed8-66caf24750d5)
 
 
 
