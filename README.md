@@ -144,7 +144,7 @@ category,
 gender
 ORDER BY 1;
 ```
---** Q.7 Write a SQL query to calculate the average sale for each month . find out best selling month in each year.**
+--**Q.7 Write a SQL query to calculate the average sale for each month . find out best selling month in each year.**
 ```
 SELECT 
     year,
@@ -174,7 +174,7 @@ WHERE r=1;
  ORDER BY total_sales DESC
  LIMIT 5;
 ```
--- **Q.9 Write a SQL Query to find the number of unique customers who purchased items from each category **
+-- **Q.9 Write a SQL Query to find the number of unique customers who purchased items from each category**
 ```
 SELECT 
  category,
