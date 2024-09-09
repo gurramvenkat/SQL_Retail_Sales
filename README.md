@@ -112,6 +112,8 @@ WHERE category = 'clothing'
   AND quantiy >= 4
   AND DATE_FORMAT(sale_date, '%Y-%m') = '2022-11';
   ```
+![Q2 Output](https://github.com/user-attachments/assets/13f2bc73-b734-4506-a9dc-87ec7c712e79)
+
 -- **Q.3 Write a SQL Query to calculate total sales in each catergory**
 ```
 SELECT 
