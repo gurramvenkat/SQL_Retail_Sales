@@ -44,7 +44,7 @@ SQL Queries
 
 Data Cleaning
 
-```SELECT COUNT(*) FROM sales;
+```SELECT COUNT(*) FROM sales
 ```
 
 
