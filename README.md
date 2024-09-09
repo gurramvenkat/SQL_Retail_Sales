@@ -102,7 +102,7 @@ WHERE '﻿transactions_id' IS NULL
 SELECT * FROM sales
 WHERE sale_date='2022-11-05';
 ```
-![Q1-Output]("https://github.com/C:/Users/keert/Downloads/Q1.png")
+![Q1](https://github.com/user-attachments/assets/88ef26b8-69e5-409f-bf38-d6cf9d027742)
 
 -- **Q.2 Write a Query to retrive all transections where the category is "clothing" and the quantity sold is more than 10 in the month of nov-22**
 ```
